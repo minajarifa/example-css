@@ -1,0 +1,14 @@
+.blogs{
+    
+}
+h1{
+    color:red;
+    /* align-content: ; */
+   background-color: aqua;
+   align-items: center;
+   border: 2px solid green;
+}
+p{
+    background-color:blue;
+    margin: auto;
+}
