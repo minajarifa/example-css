@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Learning basic css</h1>
+    <style>
+        .player{
+            text-align: right;
+        }
+      #short {
+        color: red;
+        text-align: center;
+      }
+      li {
+        color: aqua;
+      }
+      p {
+        background-color: rgb(78, 103, 103);
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: blue; background-color: aqua">Learning basic css</h1>
     <p>css meaning: Cascading style sheet</p>
-</body>
+    <p id="short" style="background-color: aqua">
+      css meaning: Cascading style sheet
+    </p>
+    <p class="player">css meaning: Cascading style sheet</p>
+    <p class="player">css meaning: Cascading style sheet</p>
+    <ul>
+      <li>inline</li>
+      <li>Internal</li>
+      <li>External</li>
+    </ul>
+  </body>
 </html>
